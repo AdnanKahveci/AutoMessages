@@ -6,7 +6,7 @@ from random import randint
 noOfMessages = 20
 
 def name():
-    name_list=["ahmet","mehmet","tayfun","ali","mahmut"]
+    name_list=["name1","name2","name3","name4","name5"]
 
     rand_name= name_list[randint(0,len(name_list)-1)]
     return rand_name
